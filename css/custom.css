@@ -1,0 +1,50 @@
+body {
+   
+}
+
+.jumbotron {
+  padding: 0;
+  background: #222 url(../img/background-header.jpg) no-repeat 50% top;
+}
+
+
+.navbar {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   min-height: 100px;
+   background: transparent;
+   border: none;
+   box-shadow: 0;
+   border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+
+.nav {
+   font-weight: bold;
+   font-size: 14px;
+   text-shadow: 0;
+   padding: 3px 20px;
+
+   
+}
+
+.navbar-default .navbar-nav > li > a {
+      color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+   box-shadow: none;
+   background: rgba(0,0,0,0.7)
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+   color: rgba(255,255,255,0.7)
+      -webkit-border-radius: 3px;
+      
+}
+
+/*end navbar*/
+
+
+
+
