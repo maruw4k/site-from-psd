@@ -1,6 +1,7 @@
 body {
    font-family: Helvetica, Arial, sans-serif;
    font-size: 14px;
+   color: #7d7d7d;
 }
 
 @font-face{
@@ -215,8 +216,50 @@ div.jumbotron-inner.text-center > h4 {
 
 /*end partners*/
 
+
 /*widgets*/
 
+.widgets {
+   padding: 50px 0 60px 0;
+   border-bottom: 1px solid #ddd;
+}
+
+.testimonials blockquote {
+   overflow: hidden;
+   border: none;
+}
+
+.testimonials blockquote p {
+   font-size: 14px;
+   font-family: Georgia, Serifl;
+   font-style: italic;
+}
+
+.blog-lists {
+   
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+.blog-lists li{
+      padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.heading {
+   padding-bottom: 20px;
+}
+
+
+
+
+
+.tweets ul li {
+   padding-bottom: 15px;
+   border-bottom: 1px solid #ddd;
+   list-style: none;
+}
 
 
 /*end widgets*/
