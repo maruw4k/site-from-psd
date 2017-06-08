@@ -192,8 +192,31 @@ div.jumbotron-inner.text-center > h4 {
 
 /*end process*/
 
+
 /*portfolio*/
 
 .portfolio {
    padding: 60px 0;
 }
+
+.title {
+   margin-bottom: 0;
+}
+
+/*end portfolio*/
+
+
+/*partners*/
+
+.partners{
+   padding: 60px 0;
+   border-bottom: 1px solid #ddd;
+}
+
+/*end partners*/
+
+/*widgets*/
+
+
+
+/*end widgets*/
