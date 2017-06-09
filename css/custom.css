@@ -35,11 +35,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
-
-
-
 /*navbar*/
 
 .jumbotron {
@@ -71,6 +66,7 @@ a:hover, a:focus{
    box-shadow: none;
    border-bottom: 1px solid rgba(255,255,255,0.2);
 }
+
 
 
 .nav {
@@ -149,10 +145,13 @@ div.jumbotron-inner.text-center > h4 {
 
 
 .jumbotron-inner div img {
+   margin: 0 auto;
    padding-top: 40px;
 }
 
 /*process*/
+
+
 
 .process {
    background: #eee;
@@ -319,7 +318,12 @@ footer {
 
 
 .signature {
+   margin-top: 40px;
   text-align: center;
+}
+
+.space {
+   visibility: hidden;
 }
 
 
@@ -334,4 +338,42 @@ footer {
 
 .social-sprite.facebook{
    background-position: -16px top;
+}
+
+@media (min-width: 768x) and (max-width: 979px)  {
+   .btn-read {
+       margin-bottom: 40px;
+}
+   
+   body {
+      font-size: 100px;
+   }
+   
+   .navbar-default{
+      float: none;
+      
+   }
+}
+
+
+@media (max-width: 767px) {
+   
+   .navbar-brand {
+      float: none;
+   }
+   .space {
+   visibility: visible;
+}
+  
+   .btn-read, .p-item, .testimonials, .blog, {
+       margin-bottom: 40px;
+}
+   
+   .line {
+      visibility: hidden;
+   }
+   .navbar-default {
+      float: none;
+   }
+   
 }
