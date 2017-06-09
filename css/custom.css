@@ -14,8 +14,6 @@ h1, h2, h3, h4, h5, h6 {
    color: #333;
 }
 
-
-
 .btn{
    background: #9a9c9f;
    font-size: 12px;
@@ -30,9 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn:hover,.btn:focus{
    background:#8e9093;
    color:#fff;
-   border:1px solid rgba(0,0,0,0.2);
 }
-
 
 
 /*navbar*/
@@ -103,6 +99,7 @@ a:hover, a:focus{
 
 /*end navbar*/
 
+
 /*jumbotron*/
 
 div.jumbotron-inner.text-center > h1 {
@@ -148,11 +145,9 @@ div.jumbotron-inner.text-center > h4 {
    margin: 0 auto;
    padding-top: 40px;
 }
+/*end jumbotron*/
 
 /*process*/
-
-
-
 .process {
    background: #eee;
    border-bottom: #ddd;
@@ -200,7 +195,6 @@ div.jumbotron-inner.text-center > h4 {
 
 
 /*portfolio*/
-
 .portfolio {
    padding: 60px 0;
 }
@@ -208,7 +202,6 @@ div.jumbotron-inner.text-center > h4 {
 .title {
    margin-bottom: 0;
 }
-
 /*end portfolio*/
 
 
@@ -218,7 +211,6 @@ div.jumbotron-inner.text-center > h4 {
    padding: 60px 0;
    border-bottom: 1px solid #ddd;
 }
-
 /*end partners*/
 
 
@@ -266,11 +258,10 @@ div.jumbotron-inner.text-center > h4 {
    list-style: none;
 }
 
-
 /*end widgets*/
 
-/*footer*/
 
+/*footer*/
 
 footer {
    padding-top: 50px;
@@ -299,7 +290,7 @@ footer {
    text-align: center;
    margin-bottom: 40px;
 }
-/*end footer*/
+
 
 .twitter {
    background-color: #569ccd;
@@ -326,8 +317,6 @@ footer {
    visibility: hidden;
 }
 
-
-
 .social-sprite{
    display: inline-block;
    background: transparent url(../img/social-sprite.png) no-repeat;
@@ -340,38 +329,39 @@ footer {
    background-position: -16px top;
 }
 
-@media (min-width: 768x) and (max-width: 979px)  {
-   .btn-read {
-       margin-bottom: 40px;
-}
-   
-   body {
-      font-size: 100px;
-   }
-   
-   .navbar-default{
-      float: none;
-      
-   }
-}
+/*end footer*/
 
+
+/*responsive*/
 
 @media (max-width: 767px) {
    
    .navbar-brand {
       float: none;
    }
+   
    .space {
    visibility: visible;
 }
   
-   .btn-read, .p-item, .testimonials, .blog, {
-       margin-bottom: 40px;
+   .p-item, .testimonials, .blog, .tweets {
+       padding-bottom: 40px;
 }
    
-   .line {
+   
+  .process-element {
+   padding-bottom: 60px;
+} 
+  
+   .partners-element {
+      padding-bottom: 20px;
+   }
+   
+
+ .line {
       visibility: hidden;
    }
+   
    .navbar-default {
       float: none;
    }
