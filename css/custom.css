@@ -52,7 +52,6 @@ a:hover, a:focus{
 
 
 
-
 .navbar {
    padding-top: 20px;
    padding-bottom: 20px;
@@ -313,9 +312,6 @@ footer {
   text-align: center;
 }
 
-.space {
-   visibility: hidden;
-}
 
 .social-sprite{
    display: inline-block;
@@ -340,9 +336,6 @@ footer {
       float: none;
    }
    
-   .space {
-   visibility: visible;
-}
   
    .p-item, .testimonials, .blog, .tweets {
        padding-bottom: 40px;
